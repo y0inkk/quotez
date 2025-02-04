@@ -65,8 +65,8 @@ function Quote() {
   return (
     <>
       <div className="my-10 w-[50vw] max-md:w-[85vw]">
-        <p className='font-mono text-xl'>{quote}</p>
-        <p className='font-mono text-right wrap mr-10'>{author}</p>
+        <p className='font-mono text-xl max-md:text-sm'>{quote}</p>
+        <p className='font-mono text-right wrap mr-10 max-md:text-sm max-md:mr-3 max-md:my-2'>{author}</p>
       </div>
     </>
   );
